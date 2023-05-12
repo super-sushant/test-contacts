@@ -1,9 +1,12 @@
 .App {
   text-align: center;
 }
-
+.leaflet-container {
+width: 100%;
+min-height: 60vh;
+}
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -11,6 +14,9 @@
   .App-logo {
     animation: App-logo-float infinite 3s ease-in-out;
   }
+}
+.my-bg {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .App-header {
